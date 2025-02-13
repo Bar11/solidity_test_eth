@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Faucet() {
+contract Faucet{
     address payable public recipient;
 
     // 构造函数，部署合约时初始化recipient地址

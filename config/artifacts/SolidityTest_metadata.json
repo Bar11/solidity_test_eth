@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"config/test1.sol": "SolidityTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"config/test1.sol": {
+			"keccak256": "0x86de8a0ef2725a29b47ea7f61fb0fb854924b7fff45ada062f8acaf51b61bb6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9c057041648862d6a647fe45cb1215bb32947610a92c75e61363f8cb833f5d8",
+				"dweb:/ipfs/QmW1J66La2MRmKao9M3arL6LMDQ1EJFTvntok1sF6kKBTq"
+			]
+		}
+	},
+	"version": 1
+}
